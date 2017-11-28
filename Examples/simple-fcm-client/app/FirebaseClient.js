@@ -16,6 +16,8 @@ class FirebaseClient {
   	});
 
 		try {
+			console.log('headers: ', headers);
+			console.log('body: ', body);
 			let response = await fetch(API_URL, { method: "POST", headers, body });
 			console.log(response);
 			try{

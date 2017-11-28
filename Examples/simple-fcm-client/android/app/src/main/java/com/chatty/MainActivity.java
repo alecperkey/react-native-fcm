@@ -1,4 +1,4 @@
-package com.google.firebase.quickstart.fcm;
+package com.chatty;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "SimpleFcmClient";
+        return "chatty";
     }
 }

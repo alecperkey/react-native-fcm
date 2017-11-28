@@ -1,6 +1,6 @@
 
 const FirebaseConstants = {
-	KEY: "YOUR_API_KEY"
+	KEY: "AAAAF4U96d8:APA91bFCnvA7eFTcdAucUJPQOZJ8T4-bmT033yK4cddbQHGo5Y8hMd9DHn_E57d937f4EuU6lrqCo1A0Jf_ez2v9AP2p1H6l2J2HHu5jGm3VfVKsibfAjxpi3kEedbVvjwpNS0QGmEi1"
 }
 
 export default FirebaseConstants;

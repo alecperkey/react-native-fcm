@@ -14,10 +14,10 @@ import {
 
 import App from "./app/App";
 
-export default class SimpleFcmClient extends Component {
+export default class Chatty extends Component {
   render() {
     return (<App />);
   }
 }
 
-AppRegistry.registerComponent('SimpleFcmClient', () => SimpleFcmClient);
+AppRegistry.registerComponent('chatty', () => Chatty);

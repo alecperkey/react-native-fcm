@@ -1,4 +1,4 @@
-package com.google.firebase.quickstart.fcm;
+package com.chatty;
 
 import android.app.Application;
 import android.util.Log;

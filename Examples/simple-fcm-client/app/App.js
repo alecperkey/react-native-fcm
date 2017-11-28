@@ -115,14 +115,23 @@ export default class App extends Component {
   sendRemoteNotificationWithData(token) {
     let body = {
       "to": token,
-      "notification":{
-    		"title": "Simple FCM Client",
-    		"body": "This is a notification with NOTIFICATION and DATA (NOTIF).",
-				"sound": "default"
-    	},
-    	"data":{
-    		"hello": "there"
-    	},
+      // "notification":{
+    	// 	"title": "Simple FCM Client",
+    	// 	"body": "This is a notification with NOTIFICATION and DATA (NOTIF).",
+			// 	"sound": "default"
+    	// },
+      "data":{
+        "custom_notification": {
+          "title": "Simple FCM Client",
+          "body": "This is a notification with NOTIFICATION and DATA (NOTIF).",
+          "sound": "default",
+          "priority": "high",
+          "show_in_foreground": true
+        }
+      },
+    	// "data":{
+    	// 	"hello": "there"
+    	// },
     	"priority": "high"
     }
 
