@@ -44,6 +44,7 @@ export default class PushController extends Component {
 
     this.notificationListener = FCM.on(FCMEvent.Notification, notif => {
       console.log("Notification", notif);
+      // while app in foreground remember to handle notification data here!
 
       // Consider using presentingLocalNotification with remote data-only notifications to allow custom client-side logic.
 
